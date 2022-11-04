@@ -44,7 +44,6 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
-
 html,
 .sidebar {
     height: auto;
@@ -570,4 +569,10 @@ main,
         height: 41px;
     }
 	
+}
+
+@media (min-width: 1900px) {
+	html, body {
+		height: 100%;
+	}
 }
